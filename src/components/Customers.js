@@ -5,7 +5,7 @@ const Customers = ({customerList, onDelete}) => {
     return(
         <>
             {customerList.map((customer) => (
-                <Customer key={customer.customerId} customer={customer} onDelete={onDelete}/>
+                <Customer key={customer.id} customer={customer} onDelete={onDelete}/>
             ))}
         </>
     )

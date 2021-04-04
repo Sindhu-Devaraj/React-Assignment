@@ -1,9 +1,5 @@
 import Button from './Button';
 
-const onClick = () => {
-    console.log("Click");
-}
-
 const Header  = ({ title, onAdd, showAdd }) => {
     return(
         <header className='header'>

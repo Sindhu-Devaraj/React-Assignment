@@ -19,14 +19,12 @@ const AddCustomer = ({onAdd}) => {
     return(
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
-                <label>Customer Name</label>
                 <input type='text' placeholder='Enter Customer Name' value={customerName} onChange={(e) => setCustomerName(e.target.value)}/>
             </div>
             <div className='form-control'>
-                <label>Location</label>
                 <input type='text' placeholder='Enter Location' value={location} onChange={(e) => setLocation(e.target.value)}/>
             </div>
-            <input type='submit' value='Add' className='btn btn-block'/> 
+            <input type='submit' value='Add' className='btn btn-block' id="add"/> 
         </form>
     )
 } 

@@ -1,19 +1,19 @@
 {
   "customerList": [
     {
-      "customerId": 1,
-      "customerName": "Manu",
-      "location": "Bengaluru"
-    },
-    {
-      "customerId": 2,
+      "id": 2,
       "customerName": "Bhuvi",
       "location": "Hassan"
     },
     {
-      "customerId": 3,
+      "customerName": "Manu",
+      "location": "Kerala",
+      "id": 4
+    },
+    {
       "customerName": "Raju",
-      "location": "Chennai"
+      "location": "Bangalore",
+      "id": 5
     }
   ]
 }
