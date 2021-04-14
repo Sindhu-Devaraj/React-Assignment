@@ -1,11 +1,11 @@
 import Customer from './Customer';
 
-const Customers = ({customerList, onDelete}) => {
+const Customers = (props) => {
     
     return(
         <>
-            {customerList.map((customer) => (
-                <Customer key={customer.id} customer={customer} onDelete={onDelete}/>
+            {props.customerList.map((customer,key) => (
+                <Customer key={key} customer={customer} onDelete={props.onDelete} onEdit={props.onEdit}/>
             ))}
         </>
     )
